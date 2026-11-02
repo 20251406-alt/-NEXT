@@ -1,0 +1,22 @@
+/* 사용자가 제공한 급식 NEXT 로고 자산 */
+.logo {
+  background: url("/brand/geupsik-next-icon.png") center / contain no-repeat;
+  color: transparent;
+  font-size: 0;
+  box-shadow: none;
+}
+
+.auth-hero h1 {
+  width: min(620px, 100%);
+  height: clamp(96px, 12vw, 150px);
+  margin: 8px 0 2px;
+  background: url("/brand/geupsik-next-logo.png") left center / contain no-repeat;
+  color: transparent;
+  font-size: 0;
+}
+
+@media (max-width: 760px) {
+  .auth-hero h1 {
+    height: 92px;
+  }
+}
